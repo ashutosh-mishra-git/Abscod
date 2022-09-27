@@ -16,7 +16,7 @@ const Navbar = () => {
   };
   return (
     <div>
-      <nav id="navbar" className="navbar">
+      {/* <nav id="navbar" className="navbar">
         <div className="navbar-container">
           <div className="nav-logo">
             <img
@@ -198,7 +198,148 @@ const Navbar = () => {
             </li>
             <div className="nav-cta">
               <button className="btn">Free Quote</button>
+              <i class="mx-5 bar-icon fa fa-bars" aria-hidden="true"></i>
+
             </div>
+          </div>
+        </div>
+      </nav> */}
+
+      <nav class="navbar navbar-expand-lg  bg-white">
+        <div class="container">
+          <a class="navbar-brand img-fluid nav-logo" href="#">
+            <img src="image/logo.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse "
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav  mb-2 ms-auto flex-nowrap mb-lg-0">
+            <li class="nav-item mx-2  dropdown">
+              <a class="nav-link  text-dark dropdown-toggle" href="#" data-bs-toggle="dropdown">About </a>
+                <ul class="dropdown-menu ">
+                  <div className="d-flex justify-content-between  ">
+                    <div className="col-md-12">
+                      <h6 className="text">Lorem ipsum dolor sit amet.</h6>
+                      <p>Lorem</p>
+                      <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+                      <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+                      <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+                    </div>
+                    <div className="col-md-12">
+                      <h6 className="text">Lorem ipsum dolor sit amet.</h6>
+                      <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+                      <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+                      <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+                    </div>
+                  </div>
+                </ul>
+	        	</li> 
+            <li class="nav-item mx-2  dropdown">
+                <a 
+                  class="nav-link text-dark dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Action
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Another action
+                    </a>
+                  </li>
+
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Something else here
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item mx-2 " >
+                <a class="nav-link text-dark" href="#">
+                  Case Studies
+                </a>
+              </li>
+              <li class="nav-item mx-2  dropdown">
+                <a 
+                  class="nav-link text-dark dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Contact Us
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Action
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Another action
+                    </a>
+                  </li>
+
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Something else here
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item mx-2  dropdown">
+                <a 
+                  class="nav-link text-dark dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Blog
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Action
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Another action
+                    </a>
+                  </li>
+
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Something else here
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <button class="btn btn-outline-dark  mx-3" type="submit">Free Quote</button>
+            </ul>
           </div>
         </div>
       </nav>
