@@ -25,10 +25,10 @@ const Navbar = () => {
             />
           </div>
           <div className="nav-links">
-            <div class="dropdown">
+            <div className="dropdown">
               <a>About</a>
               <div className="dropdown-container">
-                <div class="dropdown-content ">
+                <div className="dropdown-content ">
                   <div className="dropdown-col">
                     <h4 className="dropdown-heading">Agency</h4>
                     <p className="dropdown-description">
@@ -69,10 +69,10 @@ const Navbar = () => {
                 </div>
               </div>
             </div>
-            <div class="dropdown">
-              <a >Services</a>
+            <div className="dropdown">
+              <a>Services</a>
               <div className="dropdown-container">
-                <div class="dropdown-content ">
+                <div className="dropdown-content ">
                   <div className="dropdown-col">
                     <h4 className="dropdown-heading">Website Development</h4>
                     <p className="dropdown-description">
@@ -131,10 +131,8 @@ const Navbar = () => {
                     </ul>
                   </div>
                   <div className="dropdown-highlight">
-                    <a href="">
-                      Full Service Digital Creative Agency
-                    </a>
-                    <br /> 
+                    <a href="">Full Service Digital Creative Agency</a>
+                    <br />
                     <span className="highlight-description">
                       We have a strategy, experience and a proven track record
                       in increasing leads for our clients
@@ -146,14 +144,14 @@ const Navbar = () => {
             <li>
               <a href="">Case Studies</a>
             </li>
-            <div class="dropdown">
+            <div className="dropdown">
               <a>Contact</a>
               <div className="dropdown-container">
-                <div class="dropdown-content ">
+                <div className="dropdown-content ">
                   <div className="dropdown-col">
                     <h4 className="dropdown-heading">Contact Us</h4>
                     <p className="dropdown-description">
-                    Contact pages with maps, addresses and contact forms.
+                      Contact pages with maps, addresses and contact forms.
                     </p>
                     <ul className="dropdown-list">
                       <li>
@@ -174,7 +172,9 @@ const Navbar = () => {
                   <div className="dropdown-col">
                     <h4 className="dropdown-heading">Instant Quote</h4>
                     <p className="dropdown-description">
-                    Predefined form templates with instant quote and payment options.                    </p>
+                      Predefined form templates with instant quote and payment
+                      options.{" "}
+                    </p>
                     <ul className="dropdown-list">
                       <li>
                         <a href="">Our Clients</a>
@@ -202,6 +202,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
+      
     </div>
   );
 };
