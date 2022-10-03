@@ -1,0 +1,11 @@
+  
+  .service-section{
+    flex-basis: 33%;
+    margin: 10px;
+  }
+  
+.card-title{
+    font-size:1.5rem;
+    color: rgb(110, 91, 171);
+    font-weight: 700;
+}
