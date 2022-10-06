@@ -1,0 +1,42 @@
+.card-wrapper {
+  background: #8574e9;
+  padding: 100px 0;
+}
+.card-container {
+  flex-basis: 25%;
+  margin: 10px;
+}
+.card-container img {
+  width: 100%;
+}
+.mycard {
+  background: #8878e9;
+  box-shadow: 0 0 200px -20px rgba(0, 0, 0, 0.181);
+}
+.card:hover {
+  box-shadow: 0 0 50px -20px rgb(255, 255, 255);
+}
+.heading {
+  color: white;
+  font-weight: 900;
+  margin-bottom: 50px;
+  letter-spacing: 2px;
+}
+.description {
+  letter-spacing: 5px;
+  font-size: 15px;
+}
+.mycard-title {
+  font-size: 1.8vw;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+@media (max-width: 700px) {
+  .mycard-title {
+    font-size: 8vw;
+  }
+  .card-container img {
+    width: 70%;
+    margin: auto;
+  }
+}
