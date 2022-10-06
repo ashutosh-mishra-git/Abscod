@@ -15,7 +15,7 @@ const FourCard = (props) => {
           <div className="flex ">
             <div className="card-container">
               <div className="card mycard border-0 p-3 rounded-4 ">
-                <img
+                <img alt="img"
                   src={props.firstImage}
                   className="card-img-top img-fluid"
                 />

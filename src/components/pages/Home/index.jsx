@@ -7,7 +7,6 @@ import FourCard from "../../common/four cards/FourCard";
 import IconBox from "../../common/iconBox/IconBox";
 
 const Home = () => {
-  // let card = document.getElementsByClassName(".card")
 
   return (
     <>

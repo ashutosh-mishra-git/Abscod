@@ -10,7 +10,7 @@ const ThreeCard = (props) => {
           <div className="flex ">
             <div className="service-section">
               <div className="card p-3 border-0 rounded-4 shadow-sm ">
-                <img
+                <img alt="img"
                   src={props.firstImage}
                   className="card-img-top img-fluid"
                 />
@@ -18,7 +18,7 @@ const ThreeCard = (props) => {
                   <h5 className="card-title">{props.firstHeading}</h5>
                   <p className="text-black card-text">{props.firstDesc}</p>
                   <a
-                    href="#"
+                    href="/"
                     className="btn btn-outline-dark border-0 px-4 py-2 rounded-pill"
                   >
                     Learn More
@@ -37,7 +37,7 @@ const ThreeCard = (props) => {
                   <h5 className="card-title">{props.secondHeading}</h5>
                   <p className="card-text">{props.secondDesc}</p>
                   <a
-                    href="#"
+                    href="/"
                     className="btn btn-outline-dark border-0 px-4 py-2 rounded-pill"
                   >
                     Learn More
@@ -56,7 +56,7 @@ const ThreeCard = (props) => {
                   <h5 className="card-title">{props.thirdHeading}</h5>
                   <p className="card-text">{props.thirdDesc}</p>
                   <a
-                    href="#"
+                    href="/"
                     className="btn btn-outline-dark border-0 px-4 py-2 rounded-pill"
                   >
                     Learn More
