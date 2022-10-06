@@ -21,7 +21,7 @@ const Navbar = () => {
       <nav id="navbar">
         <div className="wrapper">
           <div className="logo">
-            <a href="">
+            <a href="/">
               {" "}
               <img src="image/logo.png" alt="" />
             </a>
@@ -31,10 +31,10 @@ const Navbar = () => {
             <input type="radio" name="slide" id="cancelBtn" />
             <ul className="nav-links">
               <label className="cancel-btn" htmlFor="cancelBtn">
-                <i class="fa-sharp fa-solid fa-xmark"></i>
+                <i className="fa-sharp fa-solid fa-xmark"></i>
               </label>
               <li>
-                <a className="desktop-item" href="">
+                <a className="desktop-item" href="/">
                   About
                 </a>
                 <input type="checkbox" name="" id="About-showMega" />
@@ -48,13 +48,13 @@ const Navbar = () => {
                       <p className="mega-menu-desc">Highly Experienced Team</p>
                       <ul className="mega-links">
                         <li>
-                          <a href="">Our Agency</a>
+                          <a href="/">Our Agency</a>
                         </li>
                         <li>
-                          <a href="">Our Services</a>
+                          <a href="/">Our Services</a>
                         </li>
                         <li>
-                          <a href="">Pricing Packages</a>
+                          <a href="/">Pricing Packages</a>
                         </li>
                       </ul>
                     </div>
@@ -65,16 +65,16 @@ const Navbar = () => {
                       </p>
                       <ul className="mega-links">
                         <li>
-                          <a href="">Our Clients</a>
+                          <a href="/">Our Clients</a>
                         </li>
                         <li>
-                          <a href="">Testimonials</a>
+                          <a href="/">Testimonials</a>
                         </li>
                         <li>
-                          <a href="">Free Resources</a>
+                          <a href="/">Free Resources</a>
                         </li>
                         <li>
-                          <a href="">Case Studies</a>
+                          <a href="/">Case Studies</a>
                         </li>
                       </ul>
                     </div>
@@ -82,7 +82,7 @@ const Navbar = () => {
                 </div>
               </li>
               <li>
-                <a className="desktop-item" href="">
+                <a className="desktop-item" href="/">
                   Services
                 </a>
                 <input type="checkbox" name="" id="Service-showMega" />
@@ -98,22 +98,22 @@ const Navbar = () => {
                       </p>
                       <ul className="mega-links">
                         <li>
-                          <a href="">Content Marketing Strategy</a>
+                          <a href="/">Content Marketing Strategy</a>
                         </li>
                         <li>
-                          <a href="">Web Design</a>
+                          <a href="/">Web Design</a>
                         </li>
                         <li>
-                          <a href="">Web Development</a>
+                          <a href="/">Web Development</a>
                         </li>
                         <li>
-                          <a href="">Mobile Marketing</a>
+                          <a href="/">Mobile Marketing</a>
                         </li>
                         <li>
-                          <a href="">Digital Consultancy</a>
+                          <a href="/">Digital Consultancy</a>
                         </li>
                         <li>
-                          <a href="">Reputation Management</a>
+                          <a href="/">Reputation Management</a>
                         </li>
                       </ul>
                     </div>
@@ -124,19 +124,19 @@ const Navbar = () => {
                       </p>
                       <ul className="mega-links">
                         <li>
-                          <a href="">Search Engine Optimization</a>
+                          <a href="/">Search Engine Optimization</a>
                         </li>
                         <li>
-                          <a href="">Local SEO</a>
+                          <a href="/">Local SEO</a>
                         </li>
                         <li>
-                          <a href="">Social Media Marketing</a>
+                          <a href="/">Social Media Marketing</a>
                         </li>
                         <li>
-                          <a href="">Email Marketing</a>
+                          <a href="/">Email Marketing</a>
                         </li>
                         <li>
-                          <a href="">Pay Per Click (PPC) Management</a>
+                          <a href="/">Pay Per Click (PPC) Management</a>
                         </li>
                       </ul>
                     </div>
@@ -147,13 +147,13 @@ const Navbar = () => {
                       </p>
                       <ul className="mega-links">
                         <li>
-                          <a href="">Conversion Rate Optimization</a>
+                          <a href="/">Conversion Rate Optimization</a>
                         </li>
                         <li>
-                          <a href="">Online presence analysis</a>
+                          <a href="/">Online presence analysis</a>
                         </li>
                         <li>
-                          <a href="">Affiliate Management</a>
+                          <a href="/">Affiliate Management</a>
                         </li>
                       </ul>
                     </div>
@@ -170,10 +170,10 @@ const Navbar = () => {
                 </div>
               </li>
               <li>
-                <a href="">Case Studies</a>
+                <a href="/">Case Studies</a>
               </li>
               <li>
-                <a className="desktop-item" href="">
+                <a className="desktop-item" href="/">
                   Contact
                 </a>
                 <input type="checkbox" name="" id="Contact-showMega" />
@@ -189,17 +189,17 @@ const Navbar = () => {
                       </p>
                       <ul className="mega-links">
                         <li>
-                          <a href="">Single Address</a>
+                          <a href="/">Single Address</a>
                         </li>
                         <li>
-                          <a href="">Multiply Addresses</a>
+                          <a href="/">Multiply Addresses</a>
                         </li>
                         <h6 className="fw-bold mt-3">Simple Forms:</h6>
                         <li>
-                          <a href="">Free SEO analysis</a>
+                          <a href="/">Free SEO analysis</a>
                         </li>
                         <li>
-                          <a href="">PayPal Service Order</a>
+                          <a href="/">PayPal Service Order</a>
                         </li>
                       </ul>
                     </div>
@@ -211,13 +211,13 @@ const Navbar = () => {
                       </p>
                       <ul className="mega-links">
                         <li>
-                          <a href="">Instant SEO Services Quote</a>
+                          <a href="/">Instant SEO Services Quote</a>
                         </li>
                         <li>
-                          <a href="">Web Design & Development Quote</a>
+                          <a href="/">Web Design & Development Quote</a>
                         </li>
                         <li>
-                          <a href="">Digital Ad Services Quote</a>
+                          <a href="/">Digital Ad Services Quote</a>
                         </li>
                       </ul>
                     </div>
@@ -225,7 +225,7 @@ const Navbar = () => {
                 </div>
               </li>
               <li>
-                <a className="desktop-item " href="">
+                <a className="desktop-item " href="/">
                   Blog
                 </a>
                 <input type="checkbox" name="" id="showDrop" />
@@ -234,13 +234,13 @@ const Navbar = () => {
                 </label>
                 <ul className="dropdown">
                   <li>
-                    <a href="">Blog 1</a>
+                    <a href="/">Blog 1</a>
                   </li>
                   <li>
-                    <a href="">Blog 2</a>
+                    <a href="/">Blog 2</a>
                   </li>
                   <li>
-                    <a href="">Blog 3</a>
+                    <a href="/">Blog 3</a>
                   </li>
                 </ul>
               </li>
@@ -252,7 +252,7 @@ const Navbar = () => {
               Free Quote
             </button>
             <label htmlFor="menuBtn">
-              <i class="bar-btn fa-sharp fa-solid fa-bars"></i>
+              <i className="bar-btn fa-sharp fa-solid fa-bars"></i>
             </label>
           </div>
         </div>

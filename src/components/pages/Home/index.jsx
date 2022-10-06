@@ -37,7 +37,7 @@ const Home = () => {
            fourImage="image/icon-office-world-finance-money.png"
            fourHeading="Social Media Marketing"
           />
-          {/* <IconBox/> */}
+          <IconBox/>
         </div>
      
     </>
