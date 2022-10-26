@@ -5,6 +5,9 @@ import "../../common/utility.css";
 import "./home.css";
 import FourCard from "../../common/four cards/FourCard";
 import IconBox from "../../common/iconBox/IconBox";
+import Testimonial from "../../common/testimonial/Testimonial";
+import CaseStudies from "../../home/CaseStudies";
+import Footer from "../../common/footer/Footer";
 
 const Home = () => {
 
@@ -37,6 +40,10 @@ const Home = () => {
            fourHeading="Social Media Marketing"
           />
           <IconBox/>
+
+          <Testimonial/>
+          <CaseStudies/>
+          <Footer/>
         </div>
      
     </>
