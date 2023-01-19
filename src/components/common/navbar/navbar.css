@@ -22,7 +22,7 @@ nav .wrapper {
   flex-basis:20%
 }
 .wrapper .logo a img {
-  width: 180px;
+  width: 200px;
 }
 .wrapper .nav-links {
   line-height: 100px;
@@ -162,7 +162,7 @@ nav .wrapper {
   }
   .wrapper .logo a img {
     width: 100%;
-    padding: 20px 0;
+    padding: 0px 0;
   }
   .nav-btn{
     margin: 0 3vw 0 0;
@@ -224,7 +224,7 @@ nav .wrapper {
     font-size: 18px;
     border-radius: 5px;
   }
-  .nav-links li .desktop-item {
+  .nav-links li .desktop-item{
     display: none;
   }
 

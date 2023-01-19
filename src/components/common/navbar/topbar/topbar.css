@@ -1,0 +1,36 @@
+
+.top_info a{
+  color: black;
+}
+
+.top-navbar.style-9 {
+    color: grey;
+    background-color: #e0e4e7;
+    padding: 10px 0;
+    position: relative;
+}
+.top-navbar {
+    z-index: 9999;
+}
+.container {
+    max-width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+    z-index: 5;
+}
+.align-items-center {
+    align-items: center!important;
+}
+
+
+/* media   */
+
+@media screen and (max-width: 991px){
+.top-navbar.style-9 a {
+    font-size: 12px;
+}
+.top-navbar{
+    visibility: hidden;
+}
+}

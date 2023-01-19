@@ -37,19 +37,28 @@ body {
 .swipe-item{
     display: flex;
     flex-direction: column;
-
     border-radius: 20px;
     overflow: hidden;
 }
 
 /* custom css */
-.heading{
-    color: #46484b;
+
+.main-portfolio .heading{
+    /* color: #46484b*/
+    color: #27282b !important; 
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-bottom: 50px;
 }
 .main-portfolio{
     background: linear-gradient( 180deg , #d8e5ed,#f4f8fa);
     padding: 70px 0;
 
+}
+.heading-content{
+  display: flex;
+  margin: 10px; 
 }
 .cs-title{
     color: #46484b;
@@ -57,10 +66,24 @@ body {
     font-size: 24px;
     font-weight: 700;
     padding: 20px 0;
+    
 }
 .cs-description{
-font-size: 15px;
+    font-size: 15px;
     padding: 0px 30px 40px;
+    
+}
+.btn-des::before{
+    content:"|";
+    margin-right: 12px;
+}
+.btn-des{
+    margin-left: 2px;
+    font-size: 1.2rem;
+    font-weight: 100 ;
+}
+.btn-des:hover{
+    color: #fa65b1 !important;
 }
 
 

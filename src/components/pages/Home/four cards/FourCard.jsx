@@ -1,6 +1,6 @@
 import React from "react";
 import "./fourcards.css";
-import "../../common/utility.css";
+import "../../../common/utility.css";
 
 const FourCard = (props) => {
   return (

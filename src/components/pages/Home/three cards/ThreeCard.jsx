@@ -1,12 +1,19 @@
 import React from "react";
 import "./threeCard.css";
-import "../../common/utility.css";
+import "../../../common/utility.css";
 
 const ThreeCard = (props) => {
   return (
     <div>
       <section className="service  my-5 text-center">
         <div className="main-container">
+     
+       {/* heading  */}
+             <div className="our__services">
+              <h1>Our Services</h1>
+             </div>
+
+
           <div className="flex ">
             <div className="service-section">
               <div className="card p-3 border-0 rounded-4 shadow-sm ">

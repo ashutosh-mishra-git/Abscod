@@ -9,8 +9,11 @@
 
 .fb-detail {
   font-size: 25px;
-  font-weight: 100;
+  font-weight: 200;
   flex-basis: 60%;
+  line-height: 30px;
+    letter-spacing: 1px;
+
 }
 .contact-info {
   flex-basis: 40%;
@@ -18,12 +21,12 @@
   padding-left: 10%;
 }
 .contact-info img {
-  width:30px;
+  width:36px;
   filter: invert(100%);
   margin-right: 10px;
 }
 .contact-info .number {
-    font-size: 31px;
+    font-size: 30px;
     font-weight: 100;
 }
 
@@ -32,7 +35,7 @@
     background: #740dc3;
     color: white;
     font-weight: 100;
-    padding: 100px 0;
+    padding: 78px 0px 0px 0px;
 }
 .footer-content{
     display: flex;
@@ -43,7 +46,7 @@
     
 }
 .footer-content>img{
-  width: 80%;
+  width: 20%;
 }
 
 @media (max-width:480px) {
@@ -58,6 +61,22 @@
     padding: 100px 40px;
 
   }
+  .contact-info .number {
+    font-size: 27
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    px;
+    font-weight: 100;
+}
 
   .contact-info{
     padding: 0;
@@ -68,11 +87,16 @@
     font-size: 18px;
     line-height: 29px;
     flex-basis: 100%;
+    font-weight: 500;
   }
   .footer-content{
+    text-align: center;
     align-items: center;
   }
   .policy{
     margin-top: 20px;
+  }
+  .footer-content>img{
+    width: 80%;
   }
 }

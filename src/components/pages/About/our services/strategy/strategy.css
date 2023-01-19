@@ -1,0 +1,151 @@
+.statergy{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 30px;
+  margin: 3rem 0rem;
+  /* background: linear-gradient( 180deg , #d8e5ed,#f4f8fa); */
+}
+
+.upper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:1rem;
+}
+.upper .heading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+
+}
+.upper .heading h1{
+    color: black;
+    font-size: 47px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 52px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+.upper .para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 221px;
+    font-size: 18px;
+    text-align: center;
+}
+.upper .para p{
+    color: black;
+
+}
+
+/* middle section */
+
+.mid{
+      display: flex;
+      justify-content: space-evenly;
+      padding: 30px;
+      
+}
+.mid p{
+    font-size: 1rem;
+}
+
+.util{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.util .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    border-radius: 2.2rem;
+    height: 109px;
+    background-color: red;
+    margin-right: 10px;
+}
+.util .icons i{
+    font-size: 3rem;
+    color: white;
+}
+.util .util__content{
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+}
+
+/* lower */
+ .lower{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 20px;
+ }
+ .pd1{
+   padding: 1.5rem;
+ }
+
+ .lower .pd1 p{
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 27px;
+    text-align: left;
+ }
+/* responsive */
+
+
+
+ @media (max-width:780px){
+     .upper .para{
+         padding: 0px 40px;
+     }
+
+    .upper .heading h1{
+        font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 15px;
+    text-align: left;
+    }
+    
+
+    .upper .para p{
+    color: black;
+     font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    
+    }
+
+
+
+    .mid{
+        flex-wrap: wrap;
+    }
+    .util .util__content p{
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 300;
+    }
+    .lower{
+        flex-wrap: wrap;
+    }
+    .lower .pd1 p{
+        font-size: 15px;
+    line-height: 23px;
+    text-align: left;
+    font-weight: 300;
+    }
+ }

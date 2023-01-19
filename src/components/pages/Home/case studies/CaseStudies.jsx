@@ -18,15 +18,26 @@ const CaseStudies = () => {
         <div className="main-container">
           <div className="heading-content">
             <h2 className="heading">Our Case Studies</h2>
-            <a href="" className="btn">
+            <a href="" className="btn btn-des" >
               See all Project
             </a>
           </div>
           <div className="portfolio-slider">
             <Swiper
-              slidesPerView={3}
               spaceBetween={30}
               modules={[Pagination]}
+              breakpoints = {{
+                0:{
+                  slidesPerView: 1
+                },
+                480:{
+                  slidesPerView: 2
+                },
+                780:{
+                  slidesPerView: 3
+                }
+              
+              }}
               className="mySwiper"
             >
               <SwiperSlide className="swipe-item">

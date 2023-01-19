@@ -1,5 +1,5 @@
 import React from "react";
-import "../../common/utility.css";
+import "../../../common/utility.css";
 import "./iconbox.css";
 
 const IconBox = () => {

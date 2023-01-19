@@ -1,23 +1,31 @@
 import React from "react";
 import "./navbar.css";
+import Topbar from "./topbar/Topbar";
 
 const Navbar = () => {
   var prevScrollpos = window.pageYOffset;
   window.onscroll = function () {
-    var currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
-      document.getElementById("navbar").style.top = "0";
+    let currentScrollPos = window.pageYOffset;
+    if(currentScrollPos===prevScrollpos){
+      document.getElementById("navbar").style.top = "30px";
+    }
+    else if( currentScrollPos>prevScrollpos){
+      document.getElementById("navbar").style.top = "0px";
+    }
+    else if (prevScrollpos > currentScrollPos) {
+      // document.getElementById("navbar").style.top = "30px";
         document.getElementById("navbar").style.visibility = "visible";
         document.getElementById("navbar").style.opacity = "1";
     } else {
-      document.getElementById("navbar").style.top = "-200px";
-      document.getElementById("navbar").style.visibility = "hidden";
-      document.getElementById("navbar").style.opacity = "0";
+      document.getElementById("navbar").style.top = "0px";
+      document.getElementById("navbar").style.visibility = "visible";
+      document.getElementById("navbar").style.opacity = "1";
     }
     prevScrollpos = currentScrollPos;
   };
   return (
     <div>
+      <Topbar />
       <nav id="navbar">
         <div className="wrapper">
           <div className="logo">
@@ -35,6 +43,54 @@ const Navbar = () => {
               </label>
               <li>
                 <a className="desktop-item" href="/">
+                  Home
+                </a>
+                <input type="checkbox" name="" id="About-showMega" />
+                <label className="mobile-item" htmlFor="About-showMega">
+                  Home
+                </label>
+                <div className="mega-box about-mega-box">
+                  <div className="content">
+                    <div className="row">
+                      <header>Agency</header>
+                      <p className="mega-menu-desc">Highly Experienced Team</p>
+                      <ul className="mega-links">
+                        <li>
+                          <a href="/agency">Our Agency</a>
+                        </li>
+                        <li>
+                          <a href="/services">Our Services</a>
+                        </li>
+                        <li>
+                          <a href="/pricing">Pricing Packages</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="row">
+                      <header className="ex">Experience</header>
+                      <p className="mega-menu-desc">
+                        Selected clients and projects
+                      </p>
+                      <ul className="mega-links">
+                        <li>
+                          <a href="/">Our Clients</a>
+                        </li>
+                        <li>
+                          <a href="/">Testimonials</a>
+                        </li>
+                        <li>
+                          <a href="/">Free Resources</a>
+                        </li>
+                        <li>
+                          <a href="/">Case Studies</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a className="desktop-item" href="/">
                   About
                 </a>
                 <input type="checkbox" name="" id="About-showMega" />
@@ -48,13 +104,13 @@ const Navbar = () => {
                       <p className="mega-menu-desc">Highly Experienced Team</p>
                       <ul className="mega-links">
                         <li>
-                          <a href="/">Our Agency</a>
+                          <a href="/agency">Our Agency</a>
                         </li>
                         <li>
-                          <a href="/">Our Services</a>
+                          <a href="/services">Our Services</a>
                         </li>
                         <li>
-                          <a href="/">Pricing Packages</a>
+                          <a href="/pricing">Pricing Packages</a>
                         </li>
                       </ul>
                     </div>
@@ -169,9 +225,9 @@ const Navbar = () => {
                   </div>
                 </div>
               </li>
-              <li>
+              {/* <li>
                 <a href="/">Case Studies</a>
-              </li>
+              </li> */}
               <li>
                 <a className="desktop-item" href="/">
                   Contact
