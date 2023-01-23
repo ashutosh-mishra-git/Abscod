@@ -7,9 +7,10 @@ import Testimonial from '../../Home/testimonial/Testimonial'
 import CaseStudies from '../../Home/case studies/CaseStudies'
 import Strategy from './strategy/Strategy'
 
+
 export default function services() {
   return (
-    <div className='main-service'>
+    <div className='main-agency'>
         <Banner />
         <Card/>
         <ThreeCard
@@ -37,7 +38,7 @@ export default function services() {
      <IconBox />
      <Testimonial/>
      <Strategy />
-     <CaseStudies />
+     {/* <CaseStudies /> */}
 
     </div>
   )

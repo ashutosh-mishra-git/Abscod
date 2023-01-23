@@ -1,5 +1,5 @@
 #navbar{
-  transition: all 0.51s ease-out;
+  transition: all 0.05s ease-out;
   box-shadow: 0 0px 50px -20px  rgba(0, 0, 0, 0.426);
 }
 nav {
@@ -155,6 +155,7 @@ nav .wrapper {
 .nav-btn{
   margin: 0 48px;
 }
+
 /* Responsiveness */
 @media screen and (max-width: 970px) {
   .wrapper .logo{

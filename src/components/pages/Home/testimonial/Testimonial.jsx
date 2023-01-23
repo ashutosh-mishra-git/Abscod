@@ -25,7 +25,7 @@ const Testimonial = () => {
       </div>
       <div
         id="carouselExampleCaptions"
-        class="carousel slide"
+        className="carousel slide"
         data-bs-ride="false"
       >
         <div className="main-container">

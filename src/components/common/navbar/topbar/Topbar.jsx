@@ -3,6 +3,7 @@ import './topbar.css'
 
 export default function Topbar() {
     
+   
 
   return (
     <div>
@@ -12,12 +13,12 @@ export default function Topbar() {
                 <div class="col-7">
                     <div class="top_info">
                         <a href="mailto: info@abscod.in" class="me-4">
-                            <i class="fas fa-envelope-open me-1"></i>
-                            <span>info@abscods.in</span>
+                            <i class="fas fa-envelope-open me-1" style={{color:"grey"}}></i>
+                            <span style={{color:"grey"}}>info@abscod.in</span>
                         </a>
                         <a href="tel: +91 **********">
-                            <i class="fas fa-phone me-1"></i>
-                            <span>+91 22222222</span>
+                            <i class="fas fa-phone me-1" style={{color:"grey"}}></i>
+                            <span style={{color:"grey"}}>+91 22222222</span>
                         </a>
                     </div>
                 </div>

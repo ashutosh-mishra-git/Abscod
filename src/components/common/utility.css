@@ -14,7 +14,9 @@ body {
 .flex-basis {
   flex-basis: 50%;
 }
-
+.banner__image{
+   margin-bottom: 8rem;
+}
 @media only screen and (max-width: 700px) {
   .main-container {
     padding: 0 20px;

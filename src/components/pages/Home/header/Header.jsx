@@ -1,18 +1,18 @@
 import React from "react";
 import "./header.css";
+import '../../../common/utility.css'
 
 
-const Header = () => {
+const Header = (props) => {
   return (
     <div>
       <div className="main-container">
         <section className="flex hero-section">
           <div className="flex-basis">
-            <p className="hero-upper-desc">DIGITAL MARKETING STRATEGY</p>
-            <h1 className="hero-heading fw-bold">We bring you new customers</h1>
+            <p className="hero-upper-desc">{props.head}</p>
+            <h1 className="hero-heading fw-bold">{props.heading}</h1>
             <p className="hero-lower-desc ">
-              We build effective strategies to help you reach customers and
-              prospects across the entire web.
+             {props.text}
             </p>
             <div>
               <button className="btn mt-4 btn-outline-dark">Get Quote</button>
@@ -24,6 +24,7 @@ const Header = () => {
             />
           </div>
           <div className="flex-basis">
+         {  props.type==='home'? 
           <div className="container">
       <div className="contact-form-wrapper d-flex justify-content-center">
           <form  method="post" className="contact-form">
@@ -47,7 +48,8 @@ const Header = () => {
               
           </form>
       </div>
-  </div>
+  </div>  
+:  <div className="banner__image"> <img src="image/about/agency/illustrations-idea-startup.png" alt=""></img> </div> }
           </div>
         </section>
       </div>

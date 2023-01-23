@@ -1,5 +1,6 @@
 import './strategy.css';
 import "../../../../common/utility.css";
+import { FiLoader,FiMessageSquare } from 'react-icons/fi';
 
 
 
@@ -22,7 +23,7 @@ export default function Strategy() {
         <div className="mid">
             <div className="util">
             <div className="icons" style={{backgroundColor:'#c77fe9'}}>
-            <i class="fa-solid fa-loader"></i>
+            <FiLoader style={{fontSize:"3rem", margin:"22px" , color:"white"}} />
                 </div>
                 <div className="util__content">
                 <h2>
@@ -35,7 +36,7 @@ export default function Strategy() {
             </div>
             <div className="util">
                     <div className="icons" style={{backgroundColor:'#faba60'}}>
-                    <i class="fa-light fa-message"></i>
+                    <FiMessageSquare style={{fontSize:"3rem", margin:"22px" , color:"white"}} />
                     </div>
                 <div className="util__content">
                 <h2>

@@ -9,10 +9,17 @@ import Testimonial from "./testimonial/Testimonial";
 import CaseStudies from "./case studies/CaseStudies";
 
 const Home = () => {
+  let props={
+    head:"DIGITAL MARKETING STRATEGY",
+    heading:"We bring you new customers",
+    text:"We build effective strategies to help you reach customers and prospects across the entire web.",
+    type:"home"
+  }
   return (
     <>
+    
       <div className="main">
-        <Header />
+        <Header {...props}/>
         <ThreeCard
           firstImage="image/icon-data-analytic-accept.png"
           firstHeading="Online Reputation Management"

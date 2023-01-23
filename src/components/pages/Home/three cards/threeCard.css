@@ -16,10 +16,6 @@
 
 .our__services h1{
   color: rgb(110, 91, 171);
+  text-decoration-line: underline;  
 }
 
-.our__services h1::after{
-  content: "------";
-  display: block;
-  width: 100%;
-}

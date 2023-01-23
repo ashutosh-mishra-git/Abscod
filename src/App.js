@@ -13,6 +13,7 @@ import Agency from './components/pages/About/our agency/Agency';
 import Services from './components/pages/About/our services/Services.jsx';
 import Footer from './components/common/footer/Footer';
 import Clients from './components/pages/About/clients/Clients';
+import Contact from './components/pages/Contact/Contact';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route exact path='/agency' element={<Agency />}></Route>
           <Route exact path='/services' element={<Services />}></Route>
           <Route exact path='/clients' element={<Clients />}></Route>
+          <Route exact path='/contact_us' element={<Contact />  }></Route>
         </Routes>
         <Footer/>
       </Router>
